@@ -1,0 +1,77 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ /* my additional css */
+body {
+  background-color: rgb(165, 154, 146);
+}
+
+.stone-rock-orange {
+  background-color: #ff6600fc;
+}
+
+.stone-rock-brown {
+  background-color: #803300fc;
+}
+
+#box {
+  background-color: rgba(90, 64, 34, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*end of new css */
+nav ul a,
+nav .brand-logo {
+  color: rgb(255, 255, 255);
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
